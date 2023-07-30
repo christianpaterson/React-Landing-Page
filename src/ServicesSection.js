@@ -20,8 +20,8 @@ export default function ServicesSection() {
     <div className="services-section">
       <h2>our services</h2>
       <div className="services-container">
-        {SERVICE_DATA.map((block) => (
-          <ServiceBlock block={block} />
+        {SERVICE_DATA.map((data) => (
+          <ServiceBlock block={data} />
         ))}
       </div>
     </div>
